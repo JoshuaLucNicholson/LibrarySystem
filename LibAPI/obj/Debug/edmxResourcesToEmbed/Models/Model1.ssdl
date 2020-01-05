@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LibraryDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Author">
+    <Key>
+      <PropertyRef Name="AuthorId" />
+    </Key>
+    <Property Name="AuthorId" Type="int" Nullable="false" />
+    <Property Name="Fname" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Lname" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="TaxFileNumber" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="ISBN" />
+    </Key>
+    <Property Name="ISBN" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TITLE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="YEARPUB" Type="int" Nullable="false" />
+    <Property Name="StuId" Type="varchar" MaxLength="10" />
+    <Property Name="AuthorId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StuId" />
+    </Key>
+    <Property Name="StuId" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="FName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="LName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="320" Nullable="false" />
+    <Property Name="MobileNo" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Book__AuthorId__276EDEB3">
+    <End Role="Author" Type="Self.Author" Multiplicity="1" />
+    <End Role="Book" Type="Self.Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Author">
+        <PropertyRef Name="AuthorId" />
+      </Principal>
+      <Dependent Role="Book">
+        <PropertyRef Name="AuthorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Book__StuId__286302EC">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="Book" Type="Self.Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StuId" />
+      </Principal>
+      <Dependent Role="Book">
+        <PropertyRef Name="StuId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LibraryDatabaseModelStoreContainer">
+    <EntitySet Name="Author" EntityType="Self.Author" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Book" EntityType="Self.Book" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Book__AuthorId__276EDEB3" Association="Self.FK__Book__AuthorId__276EDEB3">
+      <End Role="Author" EntitySet="Author" />
+      <End Role="Book" EntitySet="Book" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Book__StuId__286302EC" Association="Self.FK__Book__StuId__286302EC">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="Book" EntitySet="Book" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

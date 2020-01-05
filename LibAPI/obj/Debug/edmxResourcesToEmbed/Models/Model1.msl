@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LibraryDatabaseModelStoreContainer" CdmEntityContainer="LibraryDatabaseEntities">
+    <EntitySetMapping Name="Authors">
+      <EntityTypeMapping TypeName="LibraryDatabaseModel.Author">
+        <MappingFragment StoreEntitySet="Author">
+          <ScalarProperty Name="AuthorId" ColumnName="AuthorId" />
+          <ScalarProperty Name="Fname" ColumnName="Fname" />
+          <ScalarProperty Name="Lname" ColumnName="Lname" />
+          <ScalarProperty Name="TaxFileNumber" ColumnName="TaxFileNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Books">
+      <EntityTypeMapping TypeName="LibraryDatabaseModel.Book">
+        <MappingFragment StoreEntitySet="Book">
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="TITLE" ColumnName="TITLE" />
+          <ScalarProperty Name="YEARPUB" ColumnName="YEARPUB" />
+          <ScalarProperty Name="StuId" ColumnName="StuId" />
+          <ScalarProperty Name="AuthorId" ColumnName="AuthorId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="LibraryDatabaseModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="StuId" ColumnName="StuId" />
+          <ScalarProperty Name="FName" ColumnName="FName" />
+          <ScalarProperty Name="LName" ColumnName="LName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

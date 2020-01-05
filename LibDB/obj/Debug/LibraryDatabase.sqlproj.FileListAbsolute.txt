@@ -1,0 +1,11 @@
+C:\Users\101900910\Documents\Diploma\source\Old Repos\repos\LibDB\LibDB\bin\Debug\LibraryDatabase.dacpac
+C:\Users\101900910\Documents\Diploma\source\Old Repos\repos\LibDB\LibDB\bin\Debug\LibDB.dll
+C:\Users\101900910\Documents\Diploma\source\Old Repos\repos\LibDB\LibDB\bin\Debug\LibDB.pdb
+C:\Users\101900910\Documents\Diploma\source\Old Repos\repos\LibDB\LibDB\obj\Debug\LibDB.dll
+C:\Users\101900910\Documents\Diploma\source\Old Repos\repos\LibDB\LibDB\obj\Debug\LibDB.pdb
+C:\Users\101900910\Documents\Repo\LibrarySystem\LibDB\bin\Debug\LibraryDatabase.dacpac
+C:\Users\101900910\Documents\Repo\LibrarySystem\LibDB\bin\Debug\LibDB.dll
+C:\Users\101900910\Documents\Repo\LibrarySystem\LibDB\bin\Debug\LibDB.pdb
+C:\Users\101900910\Documents\Repo\LibrarySystem\LibDB\obj\Debug\LibraryDatabase.sqlprojAssemblyReference.cache
+C:\Users\101900910\Documents\Repo\LibrarySystem\LibDB\obj\Debug\LibDB.dll
+C:\Users\101900910\Documents\Repo\LibrarySystem\LibDB\obj\Debug\LibDB.pdb

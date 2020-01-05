@@ -1,0 +1,16 @@
+C:\Users\101900910\source\repos\LibDB\LibDB\bin\Debug\LibDB.dacpac
+C:\Users\101900910\source\repos\LibDB\LibDB\bin\Debug\LibDB.dll
+C:\Users\101900910\source\repos\LibDB\LibDB\bin\Debug\LibDB.pdb
+C:\Users\101900910\source\repos\LibDB\LibDB\obj\Debug\LibDB.sqlprojAssemblyReference.cache
+C:\Users\101900910\source\repos\LibDB\LibDB\obj\Debug\Model.xml
+C:\Users\101900910\source\repos\LibDB\LibDB\obj\Debug\refactor.xml
+C:\Users\101900910\source\repos\LibDB\LibDB\obj\Debug\postdeploy.sql
+C:\Users\101900910\source\repos\LibDB\LibDB\obj\Debug\predeploy.sql
+C:\Users\101900910\source\repos\LibDB\LibDB\obj\Debug\LibDB.dll
+C:\Users\101900910\source\repos\LibDB\LibDB\obj\Debug\LibDB.pdb
+C:\Users\101900910\Documents\Diploma\source\Old Repos\repos\LibDB\LibDB\bin\Debug\LibDB.dacpac
+C:\Users\101900910\Documents\Diploma\source\Old Repos\repos\LibDB\LibDB\bin\Debug\LibDB.dll
+C:\Users\101900910\Documents\Diploma\source\Old Repos\repos\LibDB\LibDB\bin\Debug\LibDB.pdb
+C:\Users\101900910\Documents\Diploma\source\Old Repos\repos\LibDB\LibDB\obj\Debug\LibDB.sqlprojAssemblyReference.cache
+C:\Users\101900910\Documents\Diploma\source\Old Repos\repos\LibDB\LibDB\obj\Debug\LibDB.dll
+C:\Users\101900910\Documents\Diploma\source\Old Repos\repos\LibDB\LibDB\obj\Debug\LibDB.pdb
